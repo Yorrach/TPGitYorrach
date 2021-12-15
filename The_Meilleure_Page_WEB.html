@@ -1,40 +1,36 @@
-Petite page pour l'initiation de GIT
-
-<br><br>
-je sais pas faire
-<br><br>
-
-
-<html>
-	<body>
-		<form action="https://www.youtube.com/">
-			<button type="submit">Continue</button>
-		</form>
-	</body>
-</html>
-
-<br><br>
-
-<?php  
-	if (isset($_POST["couleur"])){
-		$couleur = $_POST["couleur"];
-	}else{
-		$couleur = "#555";
-	}
-
-	if (isset($_POST["taille"])){
-		$taille = $_POST["taille"];
-	}else{
-		$taille = "70";
-	}
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Petite Page</title>
 </head>
 <body>
+	Petite page pour l'initiation de GIT
+
+	<br><br>
+	je sais pas faire
+	<br><br>
+
+
+	<form action="https://www.youtube.com/">
+		<button type="submit">Continue</button>
+	</form>
+
+	<br><br>
+
+	<?php  
+		if (isset($_POST["couleur"])){
+			$couleur = $_POST["couleur"];
+		}else{
+			$couleur = "#555";
+		}
+
+		if (isset($_POST["taille"])){
+			$taille = $_POST["taille"];
+		}else{
+			$taille = "70";
+		}
+	?>
+
 	<form action="#" method="post">
 		
 		<label for="couleur">Color : </label>
